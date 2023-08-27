@@ -501,6 +501,10 @@ for idx, tab in enumerate(tabs):
                                 
             else:
                 try:
+                    os.mkdir(f"final_out/")
+                except:
+                    pass
+                try:
                     os.mkdir(f"final_out/{st.session_state.selected_image.split('/')[1]}/")
                 except:
                     pass
