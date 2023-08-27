@@ -34,7 +34,7 @@ To run the Pitch Deck app, follow these steps:
 ```
 3. Start the Streamlit app by running the following command:
 ```
-   streamlit run appname.py
+   streamlit run app.py
 ```
 
 This will launch the app in your default web browser, and you can begin using it to create and manage pitch decks.
