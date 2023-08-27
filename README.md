@@ -32,6 +32,11 @@ To run the Pitch Deck app, follow these steps:
 ```
    cd ..
 ```
+2. Go back to the app directory:
+```
+   cd streamlit
+```
+
 3. Start the Streamlit app by running the following command:
 ```
    streamlit run app.py
