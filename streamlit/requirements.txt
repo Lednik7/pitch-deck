@@ -1,5 +1,0 @@
-streamlit
-streamlit-image-select
-googletrans
-gradio-client
-img2pdf
