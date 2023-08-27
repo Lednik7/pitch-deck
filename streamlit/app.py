@@ -500,6 +500,10 @@ for idx, tab in enumerate(tabs):
                             col.image(get_slide_11(other_style_images[img_id], 'Спасибо!', text11, color))
                                 
             else:
+                try:
+                    os.mkdir(f"final_out/{st.session_state.selected_image.split('/')[1]}/")
+                except:
+                    pass
                 if len(os.listdir(f"final_out/{st.session_state.selected_image.split('/')[1]}/")) >= 11:
                     print(st.session_state.full_data)
                     
