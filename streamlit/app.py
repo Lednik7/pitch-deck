@@ -41,6 +41,11 @@ if 'pptx_text' not in st.session_state:
     
 if 'letter_text' not in st.session_state:
     st.session_state.letter_text = ''
+
+try:
+    os.mkdir(f"out/")
+except:
+    pass
     
 tabs = st.tabs(texts)
 for idx, tab in enumerate(tabs):
