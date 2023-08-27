@@ -8,7 +8,9 @@ Follow these steps to get started with the Pitch Deck project:
 
 Make sure you have Python installed, and then install the required packages by running the following command:
 
+```
 python -m pip install -r requirements.txt
+```
 
 ### Running the Kandy Module
 
